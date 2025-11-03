@@ -163,8 +163,11 @@ plt.show()
 
 ## 📚 References
 
-- UCI Breast Cancer Dataset
-- scikit-learn Documentation
-- Random Forest Algorithm
+- [UCI Machine Learning Repository – Breast Cancer Wisconsin (Diagnostic) Dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- [scikit-learn: Breast Cancer Dataset Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
+- [Random Forest Classifier – scikit-learn Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- [Introduction to Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
+- [Feature Importance in Random Forests](https://towardsdatascience.com/random-forest-feature-importan)
+
 
 
