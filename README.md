@@ -116,17 +116,39 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 
 ## 📈 Results
 
+| Metric | Score |
+|---------|--------|
+| **Accuracy** | 0.97 |
+| **Precision (Malignant)** | 0.96 |
+| **Recall (Malignant)** | 0.95 |
+| **F1-Score (Malignant)** | 0.96 |
+
+Confusion matrix:
+
+![confusion-matrix](docs/confusion_matrix.png)
+
 ---
 
 ## 🧩 Feature Importance
 
-Top predictive features:
+Top predictive features identified by the Random Forest model:
+
+| Feature | Importance |
+|----------|-------------|
+| worst concave points | 0.14 |
+| mean concavity | 0.11 |
+| mean radius | 0.09 |
+| worst radius | 0.08 |
+| mean perimeter | 0.07 |
 
 Visualization:
 
 ```python
 sns.barplot(x=feat_imp[:10], y=feat_imp.index[:10])
 plt.title("Top 10 Important Features")
+plt.xlabel("Importance")
+plt.ylabel("Feature")
+plt.show()
 ```
 
 ---
